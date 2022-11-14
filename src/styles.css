@@ -45,6 +45,28 @@ nav li.active a {
   text-decoration: underline;
 }
 
+footer {
+  background: var(--background-color);
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+footer .open-source-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer .open-source-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+footer .netlify-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer .netlify-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 .banner img {
   max-width: 100%;
   display: block;
