@@ -1,9 +1,13 @@
-body {
-  color: #d1d2d4;
+:root {
+  --background-color: #d1d2d4;
+  --primary-color: #3e9ac3;
+  --secondary-color: #404042;
 }
 
 nav {
   padding: 20px 30px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 nav img {
@@ -31,30 +35,30 @@ nav a,
 nav a {
   text-decoration: none;
   font-size: 18px;
-  color: #3e9ac3;
+  color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: #3e9ac3;
+  color: var(--primary-color);
   text-decoration: underline;
 }
+
+.banner img {
+  max-width: 100%;
+  display: block;
+  background: var(--background-color);
+  margin: 0 auto;
+}
 .hometown {
-  background: #d1d2d4;
+  background: var(--background-color);
 }
 
 .hometown h1 {
   text-align: center;
-  color: #404042;
+  color: var(--secondary-color);
   font-size: 60px;
-  margin-top: 20px;
-}
-
-.hometown img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
 }
 
 .hometown p {
@@ -66,10 +70,10 @@ nav li.active a {
 .hometown a {
   display: block;
   text-align: center;
-  border: 1px solid #3e9ac3;
+  border: 1px solid var(--primary-color);
   border-radius: 8px;
   padding: 15px 10px;
-  background: #3e9ac3;
+  background: var(--primary-color);
   color: white;
 }
 
@@ -80,16 +84,41 @@ nav li.active a {
   transition: 150ms all ease-in-out;
 }
 
-.tour img {
+.attractions {
+  background: var(--background-color);
+}
+
+.attractions img {
   text-align: center;
   max-width: 100%;
 }
 
-.tour h1 {
+.attractions h1 {
   text-align: center;
-  color: #404042;
+  color: var(--secondary-color);
   font-size: 60px;
-  margin-top: 20px;
+}
+
+.attractions h3 {
+  text-align: center;
+  color: #3183a7;
+  text-decoration: underline;
+}
+.attractions ul {
+  list-style: none;
+  text-align: center;
+}
+.attractions-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.attractions-links a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+.dining {
+  background: var(--background-color);
 }
 
 .dining img {
@@ -98,9 +127,13 @@ nav li.active a {
 }
 .dining h1 {
   text-align: center;
-  color: #404042;
+  color: var(--secondary-color);
   font-size: 60px;
   margin-top: 20px;
+}
+
+.lodging {
+  background: var(--background-color);
 }
 
 .lodging img {
@@ -110,7 +143,7 @@ nav li.active a {
 
 .lodging h1 {
   text-align: center;
-  color: #404042;
+  color: var(--secondary-color);
   font-size: 60px;
   margin-top: 20px;
 }
