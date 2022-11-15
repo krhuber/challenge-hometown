@@ -113,7 +113,8 @@ footer .netlify-link:hover {
 
 .attractions img {
   text-align: center;
-  max-width: 100%;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .attractions h1 {
@@ -125,21 +126,22 @@ footer .netlify-link:hover {
 .attractions h3 {
   text-align: center;
   color: #3183a7;
-  text-decoration: underline;
+  font-size: 40px;
 }
 .attractions ul {
   list-style: none;
   text-align: center;
 }
-.attractions-links a {
+.attractions a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.attractions-links a:hover {
+.attractions a:hover {
   text-decoration: underline;
   color: var(--primary-color);
 }
+
 .dining {
   background: var(--background-color);
 }
@@ -153,20 +155,14 @@ footer .netlify-link:hover {
   color: var(--secondary-color);
   font-size: 60px;
 }
+.dining h2 {
+  color: #3183a7;
+  font-size: 40px;
+}
 
-.dining .top-restaurants {
-  text-decoration: none;
+.dining h4 {
   color: var(--primary-color);
   font-size: 30px;
-}
-
-.dining .top-restaurants:hover {
-  text-decoration: underline;
-  color: var(--primary-color);
-}
-.dining h4 {
-  color: #3e9ac3;
-  text-decoration: underline;
 }
 .dining .varsity-photo {
   max-width: 400px;
@@ -199,10 +195,10 @@ footer .netlify-link:hover {
 }
 .dining .the-chastain-link {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #3e9ac3;
 }
 .dining .takorea-photo {
-  max-width: 400px;
+  max-width: 490px;
   margin-bottom: 20px;
 }
 .dining .takorea-link {
