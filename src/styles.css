@@ -3,7 +3,9 @@
   --primary-color: #3e9ac3;
   --secondary-color: #404042;
 }
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
 nav {
   padding: 20px 30px;
   background-color: white;
@@ -130,8 +132,9 @@ footer .netlify-link:hover {
 
 .attractions h3 {
   text-align: center;
+  margin: 0 auto;
   color: #3183a7;
-  font-size: 40px;
+  font-size: 45px;
 }
 .attractions ul {
   list-style: none;
