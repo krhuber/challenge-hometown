@@ -154,6 +154,70 @@ footer .netlify-link:hover {
   margin-top: 20px;
 }
 
+.dining .top-restaurants {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.dining .top-restaurants:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+.dining h4 {
+  color: #3e9ac3;
+  text-decoration: underline;
+}
+.dining .varsity-photo {
+  max-width: 400px;
+}
+.dining .varsity-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.dining .ok-cafe-photo {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.dining .ok-cafe-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.dining .colonade-photo {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.dining .colonade-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.dining .the-chastain-photo {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.dining .the-chastain-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.dining .takorea-photo {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.dining .takorea-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.dining .tin-lizzys-photo {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.dining .tin-lizzys-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 .lodging {
   background: var(--background-color);
 }
