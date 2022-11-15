@@ -272,6 +272,7 @@ footer .netlify-link:hover {
 
 .lodging {
   background: var(--background-color);
+  text-align: center;
 }
 
 .lodging img {
@@ -289,21 +290,38 @@ footer .netlify-link:hover {
   margin-bottom: 10px;
 }
 
+.lodging a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.lodging a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
 .lodging .airbnb-photo {
   max-width: 200px;
   margin-bottom: 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 .lodging .vrbo-photo {
   max-width: 250px;
   margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 .lodging .clermont-photo {
-  max-width: 250px;
+  max-width: 300px;
   margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
-.lodging .ritz-carlton-photo {
-  max-width: 250px;
+.lodging .hilton-photo {
+  max-width: 300px;
   margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
