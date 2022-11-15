@@ -83,10 +83,11 @@ footer .netlify-link:hover {
   font-size: 60px;
 }
 
-.hometown p {
+.hometown .atlanta {
   max-width: 700px;
   text-align: center;
   color: #3183a7;
+  margin: 0 auto;
 }
 
 .hometown a {
