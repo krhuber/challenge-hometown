@@ -173,8 +173,13 @@ footer .netlify-link:hover {
   color: var(--primary-color);
   font-size: 30px;
 }
+.dining h4:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
 .dining .varsity-photo {
   max-width: 400px;
+  margin-bottom: 20px;
 }
 .dining .varsity-link {
   text-decoration: none;
