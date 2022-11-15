@@ -231,7 +231,27 @@ footer .netlify-link:hover {
   text-align: center;
   color: var(--secondary-color);
   font-size: 60px;
-  margin-top: 20px;
+}
+.lodging h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.lodging .airbnb-photo {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+.lodging .vrbo-photo {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+.lodging .clermont-photo {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+.lodging .ritz-carlton-photo {
+  max-width: 250px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 900px) {
