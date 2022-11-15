@@ -122,7 +122,6 @@ footer .netlify-link:hover {
   display: inline-block;
   text-align: center;
   max-width: 300px;
-  max-height: 300px;
 }
 
 .attractions h1 {
@@ -152,32 +151,47 @@ footer .netlify-link:hover {
 }
 
 .attractions .braves-stadium-photo {
-  display: block;
   text-align: center;
   margin: 0 auto;
   max-width: 400px;
 }
 .attractions .falcons-stadium-photo {
-  display: block;
   text-align: center;
   margin: 0 auto;
   max-width: 390px;
 }
 
 .attractions .atlanta-united-stadium-photo {
-  display: block;
   text-align: center;
   margin: 0 auto;
   max-width: 400px;
 }
 
 .attractions .hawks-stadium-photo {
-  display: block;
   text-align: center;
   margin: 0 auto;
   max-width: 400px;
 }
 
+.attractions .fox-theater-photo {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 375px;
+}
+.attractions .atl-symphony-photo {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 375px;
+}
+.attractions .tabernacle-photo {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 318px;
+}
+.attractions .symphony-link {
+  position: relative;
+  right: -23px;
+}
 .dining {
   background: var(--background-color);
 }
