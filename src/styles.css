@@ -209,19 +209,25 @@ footer .netlify-link:hover {
   color: #3183a7;
   font-size: 35px;
   font-weight: bold;
+  text-align: center;
 }
 
 .dining h4 {
   color: var(--primary-color);
   font-size: 30px;
+  text-align: center;
 }
 .dining h4:hover {
   color: var(--primary-color);
   text-decoration: underline;
 }
+
 .dining .varsity-photo {
   max-width: 400px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 .dining .varsity-link {
   text-decoration: none;
@@ -230,7 +236,8 @@ footer .netlify-link:hover {
 
 .dining .ok-cafe-photo {
   max-width: 400px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 .dining .ok-cafe-link {
   text-decoration: none;
@@ -239,7 +246,8 @@ footer .netlify-link:hover {
 
 .dining .colonade-photo {
   max-width: 400px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 .dining .colonade-link {
   text-decoration: none;
@@ -247,7 +255,8 @@ footer .netlify-link:hover {
 }
 .dining .the-chastain-photo {
   max-width: 400px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 .dining .the-chastain-link {
   text-decoration: none;
@@ -255,7 +264,8 @@ footer .netlify-link:hover {
 }
 .dining .takorea-photo {
   max-width: 490px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 .dining .takorea-link {
   text-decoration: none;
@@ -263,7 +273,8 @@ footer .netlify-link:hover {
 }
 .dining .tin-lizzys-photo {
   max-width: 400px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 .dining .tin-lizzys-link {
   text-decoration: none;
