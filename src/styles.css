@@ -147,6 +147,12 @@ footer .netlify-link:hover {
   color: var(--primary-color);
 }
 
+.attractions .skyview-photo {
+  max-height: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .attractions .braves-stadium-photo {
   text-align: center;
   margin: 0 auto;
