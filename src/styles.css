@@ -81,10 +81,6 @@ footer .netlify-link:hover {
   color: var(--secondary-color);
   font-size: 60px;
 }
-/* .hometown h3 {
-  color: #3183a7;
-  text-align: center;
-} */
 
 .hometown p {
   max-width: 700px;
@@ -94,7 +90,7 @@ footer .netlify-link:hover {
   font-size: 25px;
 }
 
-.hometown a {
+.links a {
   display: block;
   text-align: center;
   border: 1px solid var(--primary-color);
@@ -104,13 +100,16 @@ footer .netlify-link:hover {
   color: white;
 }
 
-.hometown a:hover {
+.links a:hover {
   background: white;
   color: #3e9ac3;
   text-decoration: none;
   transition: 150ms all ease-in-out;
 }
 
+.back-to-top {
+  margin: 0 auto;
+}
 .attractions {
   background: var(--background-color);
 }
@@ -137,12 +136,12 @@ footer .netlify-link:hover {
   list-style: none;
   text-align: center;
 }
-.attractions a {
+.attractions-links a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.attractions a:hover {
+.attractions-links a:hover {
   text-decoration: underline;
   color: var(--primary-color);
 }
@@ -195,6 +194,7 @@ footer .netlify-link:hover {
   position: relative;
   right: -23px;
 }
+
 .dining {
   background: var(--background-color);
 }
@@ -304,12 +304,12 @@ footer .netlify-link:hover {
   margin-bottom: 10px;
 }
 
-.lodging a {
+.lodging-links a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.lodging a:hover {
+.lodging-links a:hover {
   text-decoration: underline;
   color: var(--primary-color);
 }
